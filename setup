@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# Vi
+ln -sn $HOME/.dotfiles/vi/.vim $HOME/.vim
+ln -sf $HOME/.dotfiles/vi/.vimrc $HOME/.vimrc
