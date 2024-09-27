@@ -26,11 +26,13 @@ set cindent             " This turns on C style indentation
 set si                  " Smart indent
 set showmatch           " Show matching brackets
 set hlsearch            " Highlight in search
-set foldmethod=indent   " Set folding method
+"set foldmethod=indent   " Set folding method
 set ignorecase          " Ignore case in search
 set noswapfile          " Avoid swap files
 set mouse=a             " Mouse Integration
 set clipboard^=unnamed,unnamedplus
+
+autocmd FileType make setlocal noexpandtab " Don't mess up my Makefiles
 
 syntax on
 syntax enable
